@@ -4,7 +4,7 @@ export class CreateItemDto {
     readonly nama: string;
     readonly jobdesk: string;
     @IsNumber()
-    readonly phone_number: number;
+    readonly phone_number: string;
 
     @IsEmail()
     @IsNotEmpty()

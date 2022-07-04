@@ -9,7 +9,7 @@ export class Item {
   nama: string;
 
   @Prop()
-  phone_number: number;
+  phone_number: string;
 
   @Prop()
   jobdesk: string;
